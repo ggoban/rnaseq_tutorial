@@ -116,10 +116,10 @@ if ! shopt -oq posix; then
   fi
 fi
 
-export WORKSPACE=/home/ubuntu/workspace
+export WORKSPACE=/home/kobic/workspace
 export TOOLS=$HOME/tools
 export DATA=$WORKSPACE/data
-export TRINITY_HOME=/home/ubuntu/tools/trinityrnaseq-Trinity-v2.5.1
+export TRINITY_HOME=/home/kobic/tools/trinityrnaseq-Trinity-v2.5.1
 export PICARD=$TOOLS/picard.jar
 
 export PATH=$TOOLS/samtools-1.3.1:$PATH
@@ -131,7 +131,7 @@ export PATH=$TOOLS/gffcompare-0.9.8.Linux_x86_64:$PATH
 export PATH=$TOOLS/HTSeq-0.6.1p1/scripts:$PATH
 export PATH=$TOOLS/FastQC:$PATH
 export PATH=$TOOLS/flexbar_v2.5_linux64:$PATH
-export PATH=/home/ubuntu/bin/bedtools2/bin:$PATH
+export PATH=/home/kobic/bin/bedtools2/bin:$PATH
 export PATH=$TOOLS/kallisto_linux-v0.43.0:$PATH
 export PATH=$TOOLS/tophat-2.1.1.Linux_x86_64:$PATH
 export PATH=$TOOLS/Salmon-0.8.2_linux_x86_64/bin:$PATH
@@ -142,7 +142,7 @@ export PATH=$TOOLS/Sniffles-master/bin/sniffles-core-1.0.7:$PATH
 export PATH=$PATH:$HOME/.local/bin
 
 export RNA_HOME=~/workspace/rnaseq
-export RNA_EXT_DATA_DIR=/home/ubuntu/CourseData/RNA_data
+export RNA_EXT_DATA_DIR=/home/kobic/CourseData/RNA_data
 
 export RNA_DATA_DIR=$RNA_HOME/data
 export RNA_DATA_TRIM_DIR=$RNA_DATA_DIR/trimmed
